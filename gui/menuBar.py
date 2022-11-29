@@ -1,6 +1,6 @@
 """
 -- DESCRIPTION --
-This is the main script for the NotuleRegistratie project
+This scripts adds a menuBar to the root window
 
 
 -- SCRIPT OVERVIEW --
