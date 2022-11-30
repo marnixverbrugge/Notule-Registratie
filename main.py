@@ -39,7 +39,8 @@ class App(Tk):
 
         # Set current window
         self.currentWindow = None
-        self.switchWindow('mainWindow')
+        # self.switchWindow('mainWindow')
+        self.switchWindow('logWindow')
 
     @staticmethod
     def getWindowNames():
