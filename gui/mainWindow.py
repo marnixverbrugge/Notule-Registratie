@@ -31,7 +31,7 @@ class MainWindow(Frame):
         Frame.__init__(self, master)
         self.master = master
 
-        # Create the main two frames - grid layout(2x1)
+        # Create the main frames - grid layout([2],[1])
         self.initialFrameAndGridConfiguration()
 
         # Left frame top - Table

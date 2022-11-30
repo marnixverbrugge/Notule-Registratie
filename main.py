@@ -12,8 +12,9 @@ This is the main script for the NotuleRegistratie project
 
 ##### Imports #####
 from tkinter import *
-import gui.menuBar as guiMenuBar
+import gui.menuBar    as guiMenuBar
 import gui.mainWindow as guiMainWindow
+import gui.logWindow  as guiLogWindow
 
 ###################################################################
 					       # CLASSES #
@@ -45,7 +46,7 @@ class App(Tk):
         """Return dictionary with window class names"""
         windowNames = {
                        'mainWindow': guiMainWindow.MainWindow,
-                       #'logWindow': guiLogWindow
+                       'logWindow':  guiLogWindow.LogWindow
                        }
         return windowNames
 
