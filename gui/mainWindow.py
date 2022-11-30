@@ -75,19 +75,19 @@ class MainWindow(Frame):
     # LEFT FRAME TOP - TABLE
     def createLeftFrameTop(self):
         """Create the table frame"""
-        self.frameLeftTop.configure(bg='red')
+        self.frameLeftTop.configure(bg='yellow')
         return
 
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # LEFT FRAME BOTTOM - PREVIEW
     def createLeftFrameBottom(self):
         """Create the point preview frame"""
-        self.frameLeftBottom.configure(bg='blue')
+        self.frameLeftBottom.configure(bg='grey')
         return
 
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # RIGHT FRAME - SETTINGS
     def createRightFrame(self):
         """Setting options to update the table"""
-        self.frameRight.configure(bg='green')
+        self.frameRight.configure(bg='red')
         return
