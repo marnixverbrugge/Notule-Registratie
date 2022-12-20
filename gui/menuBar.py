@@ -1,6 +1,6 @@
 """
 -- DESCRIPTION --
-This is the main script for the NotuleRegistratie project
+This scripts adds a menuBar to the root window
 
 
 -- SCRIPT OVERVIEW --
@@ -24,6 +24,8 @@ def bestandMenu(root, menuBar, FONT):
     """Add the Bestand button to the menubar"""
     bestandMenu = Menu(menuBar, font= FONT, tearoff=0)
     menuBar.add_cascade(label='Bestand', menu=bestandMenu)
+    bestandMenu.add_command(label='Main Window', font=FONT, command=lambda: root.switchWindow('mainWindow'))
+    bestandMenu.add_command(label='Log Window', font=FONT, command=lambda: root.switchWindow('logWindow'))
     bestandMenu.add_separator()
     bestandMenu.add_command(label='Afsluiten', command= root.quit)
     return
