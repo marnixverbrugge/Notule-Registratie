@@ -26,7 +26,7 @@ class App(Tk):
         super().__init__()
 
         # Initialize root window
-        self.title("Notule Registratie")
+        self.title("Notule Registratie v0.0.1")
         self.state('zoomed')
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
